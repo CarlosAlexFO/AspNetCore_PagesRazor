@@ -1,0 +1,62 @@
+﻿@page
+@model RazorPagesFilme.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Catálogo de Filmes";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+
+<p>
+    <a asp-page="Create" button class="btn btn-success">Cadastrar Filme</a>
+</p>
+<table class="table table-bordered center">
+    <thead>
+        <tr class="btn-info">
+            <th>
+                @Html.DisplayNameFor(model => model.Filme[0].ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Filme[0].Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Filme[0].DataLancamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Filme[0].Genero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Filme[0].Preco)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Filme)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataLancamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID" button class="btn btn-warning" type="button">Alterar</a>
+                @*<a asp-page="./Details" asp-route-id="@item.ID" button class="btn btn-primary" type="button">Detalhes</a>*@
+                <a asp-page="./Delete" asp-route-id="@item.ID" button class="btn btn-danger" type="button">Excluir</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
