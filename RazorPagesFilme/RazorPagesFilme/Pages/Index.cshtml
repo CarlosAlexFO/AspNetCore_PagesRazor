@@ -1,5 +1,5 @@
 ﻿@page
-@model RazorPagesFilme.Pages.IndexModel
+@model RazorPagesFilme.Pages.Filmes.IndexModel
 
 @{
     ViewData["Title"] = "Catálogo de Filmes";
@@ -11,6 +11,14 @@
 <p>
     <a asp-page="Create" button class="btn btn-success">Cadastrar Filme</a>
 </p>
+
+<form>
+    <p>
+        Título: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filtrar" />
+    </p>
+</form>
+
 <table class="table table-bordered center">
     <thead>
         <tr class="btn-info">
@@ -28,6 +36,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Filme[0].Preco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Filme[0].Avaliacao)
             </th>
             <th></th>
         </tr>
@@ -50,6 +61,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Avaliacao)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID" button class="btn btn-warning" type="button">Alterar</a>

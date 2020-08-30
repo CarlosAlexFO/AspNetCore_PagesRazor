@@ -26,6 +26,9 @@ namespace RazorPagesFilme.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Avaliacao")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("DataLancamento")
                         .HasColumnType("datetime2");
 
@@ -33,7 +36,7 @@ namespace RazorPagesFilme.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Preco")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<string>("Titulo")
                         .HasColumnType("nvarchar(max)");

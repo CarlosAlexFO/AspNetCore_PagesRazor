@@ -8780,11 +8780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AspNetCore\\Razor\\RazorPagesFilme\\RazorPagesFilme\\RazorPagesFilme.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\AspNetCore_PagesRazor\\RazorPagesFilme\\RazorPagesFilme\\RazorPagesFilme.csproj",
       "projectName": "RazorPagesFilme",
-      "projectPath": "D:\\AspNetCore\\Razor\\RazorPagesFilme\\RazorPagesFilme\\RazorPagesFilme.csproj",
+      "projectPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\AspNetCore_PagesRazor\\RazorPagesFilme\\RazorPagesFilme\\RazorPagesFilme.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "D:\\AspNetCore\\Razor\\RazorPagesFilme\\RazorPagesFilme\\obj\\",
+      "outputPath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\AspNetCore_PagesRazor\\RazorPagesFilme\\RazorPagesFilme\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

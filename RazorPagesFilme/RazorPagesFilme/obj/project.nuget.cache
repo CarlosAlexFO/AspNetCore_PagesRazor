@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BptW66gPkyLGRzznHd8/5DiKw0aRjATePQWRZqqtuwLvAg7IOIwCxajTiEaQM0/6WwrgItdR9A8kwRu5RkdgvQ==",
+  "dgSpecHash": "sWGRDaQg33ZSvso8akq+Yc5bOjghH4SCgbxME+ysuZEp9Ez8TaGOZ/WQwGpLyhcYAu1IFHdwnFWcMtL8604jvA==",
   "success": true,
-  "projectFilePath": "D:\\AspNetCore\\Razor\\RazorPagesFilme\\RazorPagesFilme\\RazorPagesFilme.csproj",
+  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Área de Trabalho\\AspNetCore_PagesRazor\\RazorPagesFilme\\RazorPagesFilme\\RazorPagesFilme.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -11,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using RazorPagesFilme.Data;
 
+
 namespace RazorPagesFilme
 {
     public class Startup
@@ -26,7 +27,8 @@ namespace RazorPagesFilme
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-
+       
+          
             services.AddDbContext<RazorPagesFilmeContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("RazorPagesFilmeContext")));
         }
