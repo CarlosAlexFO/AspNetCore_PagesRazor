@@ -12,5 +12,5 @@ Validaçao dos Campos.
 Para rodar a aplicação precisa instalar no  PMC, conforme abaixo:
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 E executar os comandos abaixo:
-Add-Migration InitialCreate
+Add-Migration InitialCreate and
 Update-Databas
