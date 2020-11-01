@@ -12,9 +12,9 @@ Atualização automatica do Banco de Dados, caso sejam deletadas as linhas, ress
 Validaçao dos Campos.
 
 Para rodar a aplicação precisa instalar no  PMC, conforme abaixo:
+Package Microsoft.EntityFrameworkCore.SqlServer
 
-Package Microsoft.EntityFrameworkCore.SqlServer
-Package Microsoft.EntityFrameworkCore.SqlServer
+Package Microsoft.EntityFrameworkCore.Tools
 
 
 Demonstração do Funcionamento da Tela:
