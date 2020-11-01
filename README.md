@@ -14,3 +14,5 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 E executar os comandos abaixo:
 Add-Migration InitialCreate and
 Update-Databas
+
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
