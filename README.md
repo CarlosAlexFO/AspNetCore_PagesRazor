@@ -17,7 +17,7 @@ E executar os comandos abaixo:
 Add-Migration InitialCreate 
 Update-Database
 
-Demonstração da Funcionamento da Tela:
+Demonstração do Funcionamento da Tela:
 
 ![AspnetCore](https://github.com/CarlosAlexFO/AspNetCore_PagesRazor/blob/master/AspnetCore.gif)
 
