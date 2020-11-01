@@ -16,4 +16,4 @@ Add-Migration InitialCreate and
 Update-Databas
 
 
-![ Alt text](AspnetCore. gif) / ! [](AspnetCore. gif)
+
