@@ -22,7 +22,7 @@ Package Microsoft.EntityFrameworkCore.Tools
 
 # Demonstração do Funcionamento da Tela:
 
-![AspnetCore](https://github.com/CarlosAlexFO/AspNetCore_PagesRazor/blob/master/AspnetCore.gif)
+![AspnetCore](https://github.com/CarlosAlexFO/AspNetCore_PagesRazor/blob/master/ASPNETMVC.gif)
 
 
 
