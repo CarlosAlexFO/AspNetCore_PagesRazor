@@ -1,4 +1,4 @@
-# AspNetCore_PagesRazor
+# AspNetCoreMVC_PagesRazor
 Páginas Web utilizado o Razor
 
 Aplicativo Web com :
