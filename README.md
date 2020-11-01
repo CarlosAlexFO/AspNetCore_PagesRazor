@@ -15,7 +15,9 @@ Para rodar a aplicação precisa instalar no  PMC, conforme abaixo:
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 E executar os comandos abaixo:
 Add-Migration InitialCreate 
-Update-Databas
+Update-Database
+
+Demonstração da Funcionamento da Tela:
 
 ![AspnetCore](https://github.com/CarlosAlexFO/AspNetCore_PagesRazor/blob/master/AspnetCore.gif)
 
